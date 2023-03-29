@@ -1,0 +1,29 @@
+{
+  "name": "validation-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryna-Zeinalova/validation-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maryna-Zeinalova/validation-example/issues"
+  },
+  "homepage": "https://github.com/Maryna-Zeinalova/validation-example#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "mz-form-validation": "^1.2.0"
+  }
+}

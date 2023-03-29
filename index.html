@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>Form validation example</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">Form example</a>  
+        </div>
+      </nav>
+      <div class="text-center pt-4 pb-4">
+        <h1>Check out how my <a href="https://www.npmjs.com/package/mz-form-validation?activeTab=readme" target="_blank">validation library</a> works</h1>
+      </div>
+
+    <div class="container" style="max-width: 600px;" id="button-container">      
+        <div class="input-group mb-4 mt-4">
+            <input id="length" type="text" class="form-control" placeholder="Checking if the input is 4-10 symbols length" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2">Button</button>
+          </div>
+        <div class="input-group mb-4">
+            <input id="letters" type="text" class="form-control" placeholder="Checking if the input consists of letters only" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="">Button</button>
+          </div>
+        <div class="input-group mb-4">
+            <input id="numbers" type="text" class="form-control" placeholder="Checking if the input consists of numbers only" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="">Button</button>
+          </div>
+        <div class="input-group mb-4">
+            <input id="password" type="text" class="form-control" placeholder="Checking if a password is acceptable" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="">Button</button>
+          </div>
+        <div class="input-group mb-4">
+            <input id="email" type="text" class="form-control" placeholder="Checking if an email is acceptable" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="">Button</button>
+          </div>
+    </div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
